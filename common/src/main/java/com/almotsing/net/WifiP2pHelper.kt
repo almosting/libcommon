@@ -194,7 +194,7 @@ class WifiP2pHelper private constructor() {
                 || mWifiP2pDevice!!.status == WifiP2pDevice.INVITED))
     }
 
-    //********************************回调方法***********************************
+    //********************************CallBacks***********************************
 
     private fun callOnStateChanged(enabled: Boolean) {
         if (DEBUG) Log.v(TAG, "callOnStateChanged:enabled=$enabled")
